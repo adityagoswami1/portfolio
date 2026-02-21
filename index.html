@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Aditya Goswami — CSE Student, ML Engineer & Cybersecurity Enthusiast. Portfolio showcasing projects, experience, and skills." />
+  <title>Aditya Goswami — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔷</text></svg>" />
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-dots">
+        <span></span><span></span><span></span>
+      </div>
+      <span class="nav-logo">~/aditya</span>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════
+       HERO
+  ══════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <p class="hero-tagline">B.Tech CSE · ML Engineer · Cybersecurity Enthusiast</p>
+          <h1 class="hero-name">I'm <span>Aditya Goswami.</span></h1>
+          <p class="hero-role">
+            <span id="typewriter" class="typewriter-text"></span>
+          </p>
+          <p class="hero-bio">
+            A passionate CSE student at REC Kannauj, building things at the intersection of
+            <strong>Machine Learning</strong>, <strong>Cybersecurity</strong>, and creative software engineering.
+            I love turning complex problems into elegant solutions.
+          </p>
+          <div class="hero-buttons">
+            <a href="aditya_resume.pdf" download class="btn btn-primary">
+              ↓ Download Resume
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              ✉ Get In Touch
+            </a>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/adityagoswami1" target="_blank" class="social-btn" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/aditya-goswami" target="_blank" class="social-btn" title="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="mailto:iamadityagoswami@gmail.com" class="social-btn" title="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </a>
+            <a href="tel:+916396765210" class="social-btn" title="Call">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.01 2.22 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile Photo -->
+        <div class="hero-photo-wrap reveal">
+          <div class="hero-photo-frame">
+            <div class="photo-titlebar">
+              <div class="wdot wdot-r"></div>
+              <div class="wdot wdot-y"></div>
+              <div class="wdot wdot-g"></div>
+              <span>aditya.jpg</span>
+            </div>
+            <div class="photo-body">
+              <img src="1743087105578.jpg" alt="Aditya Goswami" class="hero-photo" />
+              <div class="photo-badge">
+                <span class="badge-dot"></span>
+                Available for Internships
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       ABOUT
+  ══════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">01 / About</p>
+      <h2 class="section-title">Who am I?</h2>
+      <p class="section-subtitle">A curious mind driven by technology and continuous learning.</p>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm <span class="about-highlight">Aditya Goswami</span>, a final-year B.Tech CSE student at
+            Rajkiya Engineering College, Kannauj. I'm an organized and motivated individual, eager to
+            utilize my technical skills across diverse domains.
+          </p>
+          <p>
+            My interest spans <span class="about-highlight">Machine Learning</span>, where I've built
+            multimodal classification systems and graph neural networks, to
+            <span class="about-highlight">Cybersecurity</span>, where I interned at C-DOT developing
+            security utilities that prevented data exfiltration at the kernel level.
+          </p>
+          <p>
+            Beyond code, I'm a <span class="about-highlight">competitive debater</span> — a winner at IEI events
+            and runner-up at IEEE, which has honed my communication and critical thinking skills.
+          </p>
+        </div>
+        <div class="about-stats-grid reveal">
+          <a href="#projects" class="stat-card">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Projects Built</span>
+          </a>
+          <a href="#experience" class="stat-card">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Internships</span>
+          </a>
+          <a href="#certificates" class="stat-card">
+            <span class="stat-number">10</span>
+            <span class="stat-label">Certificates</span>
+          </a>
+          <a href="#achievements" class="stat-card">
+            <span class="stat-number">3🏆</span>
+            <span class="stat-label">Achievements</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       SKILLS
+  ══════════════════════════════════ -->
+  <section id="skills" class="section-blue">
+    <div class="container">
+      <p class="section-label">02 / Skills</p>
+      <h2 class="section-title">Tech Toolbox</h2>
+      <p class="section-subtitle">Technologies and tools I work with.</p>
+      <div class="skills-grid">
+
+        <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">💻</div>
+            <span class="skill-cat-title">Languages</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">C++</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🤖</div>
+            <span class="skill-cat-title">ML / AI Libraries</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">YOLOv8</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🔒</div>
+            <span class="skill-cat-title">Cybersecurity</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">WINAPI Hooking</span>
+            <span class="skill-tag">DLL Injection</span>
+            <span class="skill-tag">SOC Operations</span>
+            <span class="skill-tag">Data Exfiltration Prevention</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🧪</div>
+            <span class="skill-cat-title">QA & Testing</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Test Automation</span>
+            <span class="skill-tag">Test Case Design</span>
+            <span class="skill-tag">Debugging</span>
+            <span class="skill-tag">GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🗄️</div>
+            <span class="skill-cat-title">Databases</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQL Queries</span>
+            <span class="skill-tag">CRUD Operations</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">📚</div>
+            <span class="skill-cat-title">Relevant Courses</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">OS</span>
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">DAA</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Networks</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">Cybersecurity</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       EXPERIENCE
+  ══════════════════════════════════ -->
+  <section id="experience">
+    <div class="container">
+      <p class="section-label">03 / Experience</p>
+      <h2 class="section-title">Where I've Worked</h2>
+      <p class="section-subtitle">Real-world engineering in action.</p>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-title">Cyber Security Intern</div>
+                <div class="exp-company">🏛 Centre for Development of Telematics (C-DOT), New Delhi</div>
+              </div>
+              <span class="exp-badge">Jul 2025 — Aug 2025</span>
+            </div>
+            <ul class="exp-desc">
+              <li>Underwent project training in the <strong>KMG (IPR & KMG Groups)</strong> department under Scientist
+                F, Meenu Gupta.</li>
+              <li>Developed <strong>"Cross Platform Anti Screen Capture Utility for Data Leak Prevention"</strong> — a
+                security tool to block screen capture on both Windows and Ubuntu.</li>
+              <li>Implemented the Windows solution by injecting a <strong>custom DLL to hook low-level WINAPI
+                  calls</strong> (like PrintWindow) to intercept and block capture attempts in real time.</li>
+              <li>Performance was rated <strong>good</strong>, recognized as sincere and hardworking by the supervising
+                Scientist.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-title">Data Science Intern</div>
+                <div class="exp-company">🌐 Oasis Infobyte (Virtual)</div>
+              </div>
+              <span class="exp-badge">May 2025 — Jun 2025</span>
+            </div>
+            <ul class="exp-desc">
+              <li>Cleaned messy datasets, ran exploratory analysis, and trained <strong>ML models end to end</strong>.
+              </li>
+              <li>Shipped three projects: <strong>Sales Prediction</strong>, <strong>IRIS Classification</strong>, and
+                <strong>Unemployment Analysis</strong>.
+              </li>
+              <li>Earned the <strong>⭐ Star Performer</strong> tag — recognized for outstanding work and dedication.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       PROJECTS
+  ══════════════════════════════════ -->
+  <section id="projects" class="section-blue">
+    <div class="container">
+      <p class="section-label">04 / Projects</p>
+      <h2 class="section-title">Things I've Built</h2>
+      <p class="section-subtitle">A selection of my technical projects.</p>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-titlebar">
+            <div class="wdot wdot-r"></div>
+            <div class="wdot wdot-y"></div>
+            <div class="wdot wdot-g"></div>
+            <span>traffic-alert-system.py</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Traffic Accident Alert System</h3>
+            <p class="project-desc">
+              Simulated a VANET-based system to alert nearby vehicles of traffic accidents using SUMO.
+              Implemented Python-based logic to monitor vehicle collisions and propagate alerts in the
+              simulated network, focused on reducing multi-vehicle collisions through early detection.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">SUMO</span>
+              <span class="project-tag">VANET</span>
+              <span class="project-tag">Simulation</span>
+            </div>
+            <a href="https://github.com/adityagoswami1" target="_blank" class="project-link">
+              View Code ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-titlebar">
+            <div class="wdot wdot-r"></div>
+            <div class="wdot wdot-y"></div>
+            <div class="wdot wdot-g"></div>
+            <span>gnn-classifier.py</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Suspicious Object Classification using GNN</h3>
+            <p class="project-desc">
+              Developed a system to classify images containing suspicious objects using
+              Graph Neural Networks. Applied graph-based methods for spatial relationship
+              modeling, enabling accurate classification for security applications.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">GNN</span>
+              <span class="project-tag">PyTorch</span>
+              <span class="project-tag">Computer Vision</span>
+            </div>
+            <a href="https://github.com/adityagoswami1" target="_blank" class="project-link">
+              View Code ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-titlebar">
+            <div class="wdot wdot-r"></div>
+            <div class="wdot wdot-y"></div>
+            <div class="wdot wdot-g"></div>
+            <span>sentiment-vader.py</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Sentiment Analysis using VADER</h3>
+            <p class="project-desc">
+              Built a tool to analyze sentiment in social media posts using VADER's rule-based
+              sentiment lexicon. Classified text as positive, negative, or neutral with high accuracy
+              using pre-trained heuristics.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">VADER</span>
+              <span class="project-tag">NLP</span>
+              <span class="project-tag">Social Media</span>
+            </div>
+            <a href="https://github.com/adityagoswami1" target="_blank" class="project-link">
+              View Code ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       EDUCATION
+  ══════════════════════════════════ -->
+  <section id="education">
+    <div class="container">
+      <p class="section-label">05 / Education</p>
+      <h2 class="section-title">Academic Journey</h2>
+      <p class="section-subtitle">Building my foundation in Computer Science.</p>
+      <div class="edu-table-wrap reveal">
+        <div class="edu-table-header">
+          <div class="wdot wdot-r"></div>
+          <div class="wdot wdot-y"></div>
+          <div class="wdot wdot-g"></div>
+          <span>academics.db</span>
+        </div>
+        <table class="edu-table">
+          <thead>
+            <tr>
+              <th>Qualification</th>
+              <th>Institution / Board</th>
+              <th>Score</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>B.Tech — CSE</td>
+              <td>Rajkiya Engineering College, Kannauj</td>
+              <td><span class="edu-score">7.56 SGPA</span></td>
+              <td>2022–2026</td>
+            </tr>
+            <tr>
+              <td>Class XII</td>
+              <td>GD Goenka Public School, Agra</td>
+              <td><span class="edu-score">93%</span></td>
+              <td>2021</td>
+            </tr>
+            <tr>
+              <td>Class X</td>
+              <td>GD Goenka Public School, Agra</td>
+              <td><span class="edu-score">96%</span></td>
+              <td>2019</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Relevant Courses -->
+      <div style="margin-top:28px;" class="reveal">
+        <p class="section-label" style="margin-bottom:14px;">Relevant Courses</p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;">
+          <span class="skill-tag">Operating Systems</span>
+          <span class="skill-tag">Data Structures</span>
+          <span class="skill-tag">DAA</span>
+          <span class="skill-tag">Machine Learning</span>
+          <span class="skill-tag">Computer Networks</span>
+          <span class="skill-tag">DBMS</span>
+          <span class="skill-tag">Cybersecurity</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       ACHIEVEMENTS
+  ══════════════════════════════════ -->
+  <section id="achievements" class="section-blue">
+    <div class="container">
+      <p class="section-label">06 / Achievements</p>
+      <h2 class="section-title">Wins & Recognition</h2>
+      <p class="section-subtitle">Beyond the code editor.</p>
+      <div class="achievements-grid">
+
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🥇</div>
+          <div>
+            <div class="achievement-title">Winner — Debate Competition</div>
+            <div class="achievement-desc">IEI (Institution of Engineers India) Event</div>
+          </div>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🥈</div>
+          <div>
+            <div class="achievement-title">2nd Position — Debate Competition</div>
+            <div class="achievement-desc">IEEE Event</div>
+          </div>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🏆</div>
+          <div>
+            <div class="achievement-title">Runner-up — Group Discussion</div>
+            <div class="achievement-desc">College Annual Event</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       CERTIFICATES
+  ══════════════════════════════════ -->
+  <section id="certificates">
+    <div class="container">
+      <p class="section-label">07 / Certificates</p>
+      <h2 class="section-title">Learning Never Stops</h2>
+      <p class="section-subtitle">Verified credentials and continuous learning.</p>
+      <div class="cert-grid reveal">
+
+        <div class="cert-card">
+          <div class="cert-icon">📊</div>
+          <div>
+            <div class="cert-name">Data Analytics with Python</div>
+            <div class="cert-org">NPTEL — IIT Roorkee</div>
+            <div class="cert-badges"><span class="cert-badge-silver">Silver</span></div>
+            <a href="Data Analytics with Python.pdf" target="_blank" class="cert-link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">⚙️</div>
+          <div>
+            <div class="cert-name">Design & Analysis of Algorithms</div>
+            <div class="cert-org">NPTEL — IIT Madras</div>
+            <a href="Design and Analysis of Algorithms.pdf" target="_blank" class="cert-link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">🧠</div>
+          <div>
+            <div class="cert-name">Psychology of Learning</div>
+            <div class="cert-org">NPTEL — IIT Kharagpur</div>
+            <div class="cert-badges"><span class="cert-badge-silver">Silver</span></div>
+            <a href="Psychology of Learning.pdf" target="_blank" class="cert-link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">❤️</div>
+          <div>
+            <div class="cert-name">Emotional Intelligence</div>
+            <div class="cert-org">NPTEL — IIT Kharagpur</div>
+            <div class="cert-badges"><span class="cert-badge-silver">Silver</span></div>
+            <a href="Emotional Intelligence.pdf" target="_blank" class="cert-link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">☁️</div>
+          <div>
+            <div class="cert-name">Cloud Computing</div>
+            <div class="cert-org">NPTEL — IIT Kharagpur</div>
+            <a href="Cloud Computing.pdf" target="_blank" class="cert-link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">👁️</div>
+          <div>
+            <div class="cert-name">Computer Vision 101</div>
+            <div class="cert-org">Infosys Springboard</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">🤖</div>
+          <div>
+            <div class="cert-name">Introduction to Deep Learning</div>
+            <div class="cert-org">Infosys Springboard</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">🧪</div>
+          <div>
+            <div class="cert-name">Introduction to AI</div>
+            <div class="cert-org">Infosys Springboard</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">🔒</div>
+          <div>
+            <div class="cert-name">Cybersecurity Essentials</div>
+            <div class="cert-org">IBM SkillsBuild · Edunet Foundation</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">⭐</div>
+          <div>
+            <div class="cert-name">Data Science Intern — Star Performer</div>
+            <div class="cert-org">Oasis Infobyte</div>
+            <div class="cert-badges"><span class="cert-badge-star">⭐ Star Performer</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       CONTACT
+  ══════════════════════════════════ -->
+  <section id="contact" class="section-blue">
+    <div class="container">
+      <p class="section-label">08 / Contact</p>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-subtitle">Open to internships, collaborations, and interesting conversations.</p>
+      <div class="contact-wrap">
+        <div class="contact-info reveal">
+          <p>
+            Whether you have a project idea, an internship opportunity, or just want to say hi —
+            my inbox is always open. I'll try my best to get back to you!
+          </p>
+          <div class="contact-links">
+            <a href="mailto:iamadityagoswami@gmail.com" class="contact-link">
+              <span class="contact-link-icon">✉️</span>
+              iamadityagoswami@gmail.com
+            </a>
+            <a href="tel:+916396765210" class="contact-link">
+              <span class="contact-link-icon">📞</span>
+              +91 6396765210
+            </a>
+            <a href="https://www.linkedin.com/in/aditya-goswami" target="_blank" class="contact-link">
+              <span class="contact-link-icon">💼</span>
+              linkedin.com/in/aditya-goswami
+            </a>
+            <a href="https://github.com/adityagoswami1" target="_blank" class="contact-link">
+              <span class="contact-link-icon">🐙</span>
+              github.com/adityagoswami1
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form reveal">
+          <div class="widget-titlebar">
+            <div class="wdot wdot-r"></div>
+            <div class="wdot wdot-y"></div>
+            <div class="wdot wdot-g"></div>
+            <span>send_message.sh</span>
+          </div>
+          <form id="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+              ✉ Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       FOOTER
+  ══════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">~/aditya_goswami</span>
+        <span class="footer-copy">
+          Designed & Built with <span class="footer-heart">♥</span> by Aditya Goswami &nbsp;·&nbsp; 2025
+        </span>
+        <div class="social-row" style="margin-top:0;">
+          <a href="https://github.com/adityagoswami1" target="_blank" class="social-btn"
+            style="background:#222;border-color:#444;color:white;" title="GitHub">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/aditya-goswami" target="_blank" class="social-btn"
+            style="background:#222;border-color:#444;color:white;" title="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
+
+  <!-- ══════════════════════════════════
+       CHATBOT
+  ══════════════════════════════════ -->
+  <div id="chatbot-wrapper">
+    <!-- Toggle Button -->
+    <button id="chatbot-toggle" title="Chat with Aditya's AI Assistant" aria-label="Open chatbot">
+      <span id="chatbot-toggle-icon">💬</span>
+    </button>
+
+    <!-- Chat Window -->
+    <div id="chatbot-window" class="chatbot-hidden">
+      <div class="chatbot-header">
+        <div class="chatbot-header-left">
+          <div class="chatbot-avatar">
+            <img src="1743087105578.jpg" alt="Aditya" />
+          </div>
+          <div>
+            <div class="chatbot-name">Aditya's Assistant</div>
+            <div class="chatbot-status"><span class="chatbot-online-dot"></span>Online</div>
+          </div>
+        </div>
+        <button class="chatbot-close" onclick="toggleChatbot()" aria-label="Close">✕</button>
+      </div>
+
+      <div class="chatbot-messages" id="chatbot-messages">
+        <!-- Messages injected by JS -->
+      </div>
+
+      <!-- Quick Questions -->
+      <div class="chatbot-quick" id="chatbot-quick">
+        <p class="chatbot-quick-label">Quick questions:</p>
+        <div class="chatbot-pills" id="chatbot-pills"></div>
+      </div>
+
+      <!-- Input Area -->
+      <div class="chatbot-input-row">
+        <input type="text" id="chatbot-input" placeholder="Ask me something..." autocomplete="off"
+          onkeydown="if(event.key==='Enter') sendChatMessage()" />
+        <button class="chatbot-send" onclick="sendChatMessage()" aria-label="Send">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="22" y1="2" x2="11" y2="13" />
+            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
